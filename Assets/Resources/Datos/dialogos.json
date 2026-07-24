@@ -1,0 +1,91 @@
+{
+  "saludos": [
+    "Buenas, mi pana. Aquí están mis papeles.",
+    "Épale, ¿cómo está? Le entrego todo de una vez.",
+    "Buenos días señor funcionario, ahí le dejé todo.",
+    "Chamo, ando apurado, el vuelo ya va a abordar.",
+    "Buenas... primera vez que viajo, disculpe los nervios.",
+    "¿Todo bien? Ahí tiene, revise con calma.",
+    "Mire, yo tengo TODO en regla, me lo revisaron ya abajo.",
+    "Buenas buenas. Qué calor el de hoy, ¿ah?",
+    "Ay Dios mío, por fin llegué a la ventanilla. Dos horas en esa cola.",
+    "Saludos, hermano. Que sea rápido, por favor, que dejé a mi mamá afuera.",
+    "Disculpe los ojos rojos... acabo de despedirme allá en el piso de colores.",
+    "Ya me tomé la foto en el piso de Cruz-Diez. Última foto en Venezuela, ¿ah?",
+    "Voy a conocer a mi nieto, señor. Nació allá. Dos años tiene ya.",
+    "Mi mamá me echó la bendición ahí afuera y me puso esta medallita. Cuídemela.",
+    "Llegué desde Guatire anoche, dormí en una pensión pa' estar aquí tempranito.",
+    "Le juro que en la agencia me dijeron que con esto pasaba.",
+    "Yo no me quiero ir, ¿oyó? Pero es lo mejor. Eso me dijeron todos.",
+    "El de la cola de al lado vendió hasta la nevera pa'l pasaje. Yo vendí el carro."
+  ],
+  "excusas": [
+    { "tipo": "NombreNoCoincide", "lineas": [
+      "¿Cómo que no coincide? ¡Eso fue la agencia que lo escribió mal, chamo!",
+      "Es que en el SAIME me pusieron el nombre con otra letra... usted sabe cómo es eso.",
+      "¡Pero si soy yo! Un error de una letrica, no me vaya a dañar el viaje por eso."
+    ]},
+    { "tipo": "PasaporteVencido", "lineas": [
+      "¡Pero me dijeron que con la prórroga pasaba!",
+      "Chamo, una cita en el SAIME tarda AÑOS. Hágame el favor...",
+      "Yo pagué la extensión, tiene que estar ahí, revise otra vez."
+    ]},
+    { "tipo": "ProrrogaVencida", "lineas": [
+      "¿Vencida? ¡Si me la pusieron hace nada!",
+      "No puede ser, en la agencia me juraron que servía dos años más.",
+      "Mire, yo no sé de fechas, yo sé que pagué lo que había que pagar."
+    ]},
+    { "tipo": "FotoNoCoincide", "lineas": [
+      "Es que en esa foto estaba más gordo... y con menos canas.",
+      "¡Esa foto es vieja! ¿Usted no ha cambiado en cinco años?",
+      "Me operé, ¿ok? No es delito verse mejor."
+    ]},
+    { "tipo": "CedulaAlterada", "lineas": [
+      "Debe ser un error de tipeo del sistema, eso pasa full.",
+      "Esa es mi cédula de toda la vida, señor.",
+      "El de la agencia escribió eso, yo ni lo revisé."
+    ]},
+    { "tipo": "SinVisaRequerida", "lineas": [
+      "¿Visa? ¡¿Desde cuándo?! ¡Ayer no pedían!",
+      "Pero yo tengo familia allá esperándome, no me haga esto.",
+      "En el grupo de WhatsApp dijeron que todavía no pedían visa."
+    ]},
+    { "tipo": "MenorSinPermiso", "lineas": [
+      "El papá vive afuera, ¿de dónde saco yo esa firma?",
+      "La notaría estaba cerrada por el apagón, se lo juro.",
+      "Es mi sobrino, lo llevo yo, ¿qué más da un papel?"
+    ]},
+    { "tipo": "BoletoOtraFecha", "lineas": [
+      "La aerolínea me cambió el vuelo tres veces, esto es lo que me dieron.",
+      "¿Y qué hago? ¿Duermo en el aeropuerto hasta esa fecha?",
+      "Eso es de la reprogramación, pregúntele a la aerolínea."
+    ]},
+    { "tipo": "EnListaAlerta", "lineas": [
+      "Eso es un error, hay MILES con ese apellido.",
+      "¿Alerta de qué? Yo no debo nada.",
+      "Mire, eso es política, yo soy gente de trabajo."
+    ]},
+    { "tipo": "SinCertFiebre", "lineas": [
+      "¿Fiebre amarilla? ¡Si voy es pa' la capital, no pa' la selva!",
+      "En el ambulatorio no había vacunas, ¿yo qué culpa tengo?",
+      "Me dijeron que eso ya no lo pedían."
+    ]}
+  ],
+  "sobornos": [
+    "Mire... aquí entre nos... yo tengo unos verdecitos que le pueden servir. Usted me entiende.",
+    "¿Y no hay forma de... colaborar con el proceso? Yo ando con efectivo.",
+    "Épale, hermano... ¿cuánto es 'la tasa especial' hoy? Guiño, guiño."
+  ],
+  "despedidas_siga": [
+    "¡Gracias, mi pana! ¡Que Dios se lo pague!",
+    "Uff, menos mal. ¡Chao, cuídese!",
+    "Se lo agradezco. Deséeme suerte allá afuera.",
+    "¡Por fin! Gracias, señor, de verdad."
+  ],
+  "despedidas_negado": [
+    "¡NO PUEDE SER! ¿Y ahora qué hago yo?",
+    "Usted no tiene corazón, chamo...",
+    "¡Esto es un abuso! ¡Deme el nombre de su supervisor!",
+    "Está bien... está bien... ya vengo con los papeles buenos. Algún día."
+  ]
+}

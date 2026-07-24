@@ -1,0 +1,24 @@
+{
+  "nombresF": [
+    "María", "Carmen", "Yusmary", "Génesis", "Yorgelis", "Rosangel", "Mileidy",
+    "Andreína", "Yubraska", "Coromoto", "Marbella", "Xiomara", "Dayana",
+    "Nairobi", "Yesenia", "Zulay", "Betzabeth", "Iraida", "Norkis", "Katiuska",
+    "Milagros", "Aurora", "Josefina", "Greilyn", "Oriana", "Michell", "Barbara",
+    "Yadira", "Omaira", "Belkis", "Maigualida", "Yolanda", "Nakary", "Estefanía"
+  ],
+  "nombresM": [
+    "José", "Jesús", "Luis", "Yeferson", "Deivi", "Anthony", "Wilmer",
+    "Argenis", "Douglas", "Freddy", "Jhonny", "Néstor", "Ramón", "Alexander",
+    "Yorbis", "Maikel", "Eudomar", "Cruz", "Asdrúbal", "Gregorio", "Wladimir",
+    "Richard", "Kleiber", "Onésimo", "Edixon", "Jean Carlos", "Ángel", "Darwin",
+    "Norberto", "Pastor", "Eleazar", "Gustavo", "Nelson", "Iván"
+  ],
+  "apellidos": [
+    "González", "Rodríguez", "Pérez", "Hernández", "García", "Martínez",
+    "Sequera", "Bolívar", "Rondón", "Guerrero", "Urdaneta", "Chacín",
+    "Fernández", "Blanco", "Salazar", "Colmenares", "Aponte", "Zambrano",
+    "Mendoza", "Rivas", "Paredes", "Montilla", "Quintero", "Bracho",
+    "Semprún", "Fuenmayor", "Camacaro", "Yépez", "Ollarves", "Sifontes",
+    "Marcano", "Brito", "Palacios", "Carrasquel", "Ledezma", "Piñango"
+  ]
+}

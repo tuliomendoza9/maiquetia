@@ -1,0 +1,17 @@
+{
+  "destinos": [
+    { "clave": "bogota",      "ciudad": "Bogotá",           "pais": "Colombia",       "exigeVisa": false, "exigeFiebreAmarilla": true  },
+    { "clave": "lima",        "ciudad": "Lima",             "pais": "Perú",           "exigeVisa": true,  "exigeFiebreAmarilla": false },
+    { "clave": "santiago",    "ciudad": "Santiago",         "pais": "Chile",          "exigeVisa": true,  "exigeFiebreAmarilla": false },
+    { "clave": "quito",       "ciudad": "Quito",            "pais": "Ecuador",        "exigeVisa": true,  "exigeFiebreAmarilla": true  },
+    { "clave": "madrid",      "ciudad": "Madrid",           "pais": "España",         "exigeVisa": false, "exigeFiebreAmarilla": false },
+    { "clave": "miami",       "ciudad": "Miami",            "pais": "Estados Unidos", "exigeVisa": true,  "exigeFiebreAmarilla": false },
+    { "clave": "panama",      "ciudad": "Ciudad de Panamá", "pais": "Panamá",         "exigeVisa": true,  "exigeFiebreAmarilla": false },
+    { "clave": "buenosaires", "ciudad": "Buenos Aires",     "pais": "Argentina",      "exigeVisa": false, "exigeFiebreAmarilla": false },
+    { "clave": "mexico",      "ciudad": "Ciudad de México", "pais": "México",         "exigeVisa": true,  "exigeFiebreAmarilla": false },
+    { "clave": "curazao",     "ciudad": "Willemstad",       "pais": "Curazao",        "exigeVisa": false, "exigeFiebreAmarilla": false },
+    { "clave": "portoespana", "ciudad": "Puerto España",    "pais": "Trinidad",       "exigeVisa": true,  "exigeFiebreAmarilla": true  },
+    { "clave": "lisboa",      "ciudad": "Lisboa",           "pais": "Portugal",       "exigeVisa": false, "exigeFiebreAmarilla": false }
+  ],
+  "aerolineas": [ "Conviasa", "Laser", "Avior", "Estelar", "Rutaca", "Turpial", "Copa", "Iberia", "TAP", "Wingo" ]
+}

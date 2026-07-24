@@ -1,0 +1,111 @@
+{
+  "fechaInicio": { "dia": 15, "mes": 3, "anio": 2019 },
+  "dias": [
+    {
+      "numero": 1,
+      "tipo": "salida",
+      "titular": "MAIQUETÍA REABRE OPERACIONES TRAS EL APAGÓN NACIONAL",
+      "viajeros": 6,
+      "discrepanciasActivas": [ "NombreNoCoincide", "PasaporteVencido" ],
+      "reglasNuevas": [
+        "Todo pasaporte debe estar VIGENTE (revise la fecha de vencimiento).",
+        "El nombre del boleto debe coincidir EXACTO con el del pasaporte."
+      ],
+      "listaAlerta": [],
+      "eventos": [ "tutorial" ],
+      "probSoborno": 0.0,
+      "encuentroEspecial": null
+    },
+    {
+      "numero": 2,
+      "tipo": "salida",
+      "titular": "SAIME RECUERDA: LA PRÓRROGA EXTIENDE LA VIGENCIA POR DECRETO",
+      "viajeros": 7,
+      "discrepanciasActivas": [ "NombreNoCoincide", "PasaporteVencido", "ProrrogaVencida" ],
+      "reglasNuevas": [
+        "NOVEDAD: pasaporte vencido CON prórroga vigente SÍ es válido.",
+        "Ojo: la prórroga también vence. Sume bien las fechas."
+      ],
+      "listaAlerta": [],
+      "eventos": [],
+      "probSoborno": 0.1,
+      "encuentroEspecial": null
+    },
+    {
+      "numero": 3,
+      "tipo": "salida",
+      "titular": "PERÚ Y CHILE EXIGEN VISA A VENEZOLANOS DESDE HOY",
+      "viajeros": 8,
+      "discrepanciasActivas": [ "NombreNoCoincide", "ProrrogaVencida", "SinVisaRequerida", "FotoNoCoincide" ],
+      "reglasNuevas": [
+        "NOVEDAD: verifique la tabla de visas. Lima, Santiago, Quito, Miami, Panamá, México y Puerto España EXIGEN visa.",
+        "Compare la FOTO del pasaporte con la persona. Si no se parece, interrogue."
+      ],
+      "listaAlerta": [],
+      "eventos": [ "tasa_salto" ],
+      "probSoborno": 0.15,
+      "encuentroEspecial": "stefano"
+    },
+    {
+      "numero": 4,
+      "tipo": "entrada",
+      "titular": "LLEGAN VUELOS DE RETORNADOS — CONTROL DE ENTRADA ACTIVADO",
+      "viajeros": 8,
+      "discrepanciasActivas": [ "NombreNoCoincide", "CedulaAlterada", "FotoNoCoincide", "EnListaAlerta" ],
+      "reglasNuevas": [
+        "HOY ES CONTROL DE ENTRADA: revise a los que LLEGAN.",
+        "NOVEDAD: coteje la cédula del pasaporte con la del boleto. Un dígito distinto = documento alterado.",
+        "Hay LISTA DE ALERTA: si el apellido aparece, botón ALCABALA."
+      ],
+      "listaAlerta": [ "Sifontes" ],
+      "eventos": [ "apagon" ],
+      "probSoborno": 0.2,
+      "encuentroEspecial": null
+    },
+    {
+      "numero": 5,
+      "tipo": "salida",
+      "titular": "OPERATIVO ESPECIAL: MENORES NO VIAJAN SOLOS SIN PERMISO NOTARIADO",
+      "viajeros": 9,
+      "discrepanciasActivas": [ "ProrrogaVencida", "SinVisaRequerida", "MenorSinPermiso", "BoletoOtraFecha" ],
+      "reglasNuevas": [
+        "NOVEDAD: menor de 18 años sin permiso notariado = NEGADO.",
+        "NOVEDAD: la fecha del boleto debe ser LA DE HOY."
+      ],
+      "listaAlerta": [],
+      "eventos": [ "clap" ],
+      "probSoborno": 0.25,
+      "encuentroEspecial": null
+    },
+    {
+      "numero": 6,
+      "tipo": "salida",
+      "titular": "BROTE DE FIEBRE AMARILLA: EXIGEN CERTIFICADO PARA DESTINOS TROPICALES",
+      "viajeros": 9,
+      "discrepanciasActivas": [ "ProrrogaVencida", "SinVisaRequerida", "MenorSinPermiso", "SinCertFiebre", "FotoNoCoincide" ],
+      "reglasNuevas": [
+        "NOVEDAD: Bogotá, Quito y Puerto España exigen certificado de fiebre amarilla.",
+        "El Ministerio vigila su rendimiento: máximo 2 errores hoy."
+      ],
+      "listaAlerta": [],
+      "eventos": [ "inspector" ],
+      "probSoborno": 0.3,
+      "encuentroEspecial": null
+    },
+    {
+      "numero": 7,
+      "tipo": "entrada",
+      "titular": "VUELO ESPECIAL ANUNCIADO — SE ESPERA COMITIVA DE ALTO NIVEL",
+      "viajeros": 8,
+      "discrepanciasActivas": [ "NombreNoCoincide", "CedulaAlterada", "FotoNoCoincide", "EnListaAlerta", "SinCertFiebre" ],
+      "reglasNuevas": [
+        "Control de entrada. TODO equipaje se revisa. TODA persona se verifica.",
+        "Sin excepciones. (¿Verdad?)"
+      ],
+      "listaAlerta": [ "Camacaro" ],
+      "eventos": [ "tasa_salto" ],
+      "probSoborno": 0.35,
+      "encuentroEspecial": null
+    }
+  ]
+}
